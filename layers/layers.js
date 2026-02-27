@@ -14,9 +14,10 @@ var lyr_Photos5065 = new ol.layer.Tile({
         url: "https://data.geopf.fr/wms-r/wms?VERSION%3D1.3.0",
         attributions: ' ',
         params: {
-        "LAYERS": "ORTHOIMAGERY.ORTHOPHOTOS.1950-1965",
-        "TILED": "true",
-        "VERSION": "1.3.0"},
+            "LAYERS": "ORTHOIMAGERY.ORTHOPHOTOS.1950-1965",
+            "TILED": "true",
+            "VERSION": "1.3.0"
+        },
     })),
     title: 'Photos 50-65',
     popuplayertitle: 'Photos 50-65',
@@ -31,7 +32,8 @@ var lyr_Photosactu = new ol.layer.Tile({
         params: {
             "LAYERS": "ORTHOIMAGERY.ORTHOPHOTOS",
             "TILED": "true",
-            "VERSION": "1.3.0"},
+            "VERSION": "1.3.0"
+        },
     })),
     title: 'Photos actu',
     popuplayertitle: 'Photos actu',
@@ -117,21 +119,17 @@ var lyr_sectionG2 = new ol.layer.Image({
         imageExtent: [-35029.173632, 5931896.500733, -32285.515906, 5935798.999653]
     })
 });
-
 var lyr_sectionG3 = new ol.layer.Image({
-        opacity: 1,
-
+    opacity: 1,
     title: 'section G3<br />' ,
-
-
-        source: new ol.source.ImageStatic({
-            url: "./layers/sectionG3.png",
-            attributions: ' ',
-            projection: 'EPSG:3857',
-            alwaysInRange: true,
-            imageExtent: [-37128.915087, 5932776.565673, -32589.436376, 5937251.316180]
-        })
-    });
+    source: new ol.source.ImageStatic({
+        url: "./layers/sectionG3.png",
+        attributions: ' ',
+        projection: 'EPSG:3857',
+        alwaysInRange: true,
+        imageExtent: [-37128.915087, 5932776.565673, -32589.436376, 5937251.316180]
+    })
+});
 var lyr_sectionF3 = new ol.layer.Image({
     opacity: 1,
     title: 'section F3<br />' ,
@@ -143,64 +141,50 @@ var lyr_sectionF3 = new ol.layer.Image({
         imageExtent: [-33535.080026, 5930978.920639, -29350.144317, 5935123.043725]
     })
 });
-
 var lyr_sectionH2 = new ol.layer.Image({
-        opacity: 1,
-
+    opacity: 1,
     title: 'section H2<br />' ,
-
-
-        source: new ol.source.ImageStatic({
-            url: "./layers/sectionH2.png",
-            attributions: ' ',
-            projection: 'EPSG:3857',
-            alwaysInRange: true,
-            imageExtent: [-34576.643681, 5934770.985159, -30160.557710, 5938397.692816]
-        })
-    });
+    source: new ol.source.ImageStatic({
+        url: "./layers/sectionH2.png",
+        attributions: ' ',
+        projection: 'EPSG:3857',
+        alwaysInRange: true,
+        imageExtent: [-34576.643681, 5934770.985159, -30160.557710, 5938397.692816]
+    })
+});
 var lyr_sectionH2B = new ol.layer.Image({
-        opacity: 1,
-
+    opacity: 1,
     title: 'section H2B<br />' ,
-
-
-        source: new ol.source.ImageStatic({
-            url: "./layers/sectionH2B.png",
-            attributions: ' ',
-            projection: 'EPSG:3857',
-            alwaysInRange: true,
-            imageExtent: [-32405.024192, 5936949.791974, -32055.735969, 5937323.144871]
-        })
-    });
+    source: new ol.source.ImageStatic({
+        url: "./layers/sectionH2B.png",
+        attributions: ' ',
+        projection: 'EPSG:3857',
+        alwaysInRange: true,
+        imageExtent: [-32405.024192, 5936949.791974, -32055.735969, 5937323.144871]
+    })
+});
 var lyr_sectionH1 = new ol.layer.Image({
-        opacity: 1,
-
+    opacity: 1,
     title: 'section H1<br />' ,
-
-
-        source: new ol.source.ImageStatic({
-            url: "./layers/sectionH1.png",
-            attributions: ' ',
-            projection: 'EPSG:3857',
-            alwaysInRange: true,
-            imageExtent: [-32718.417032, 5934234.548494, -29389.301566, 5938515.650930]
-        })
-    });
-
+    source: new ol.source.ImageStatic({
+        url: "./layers/sectionH1.png",
+        attributions: ' ',
+        projection: 'EPSG:3857',
+        alwaysInRange: true,
+        imageExtent: [-32718.417032, 5934234.548494, -29389.301566, 5938515.650930]
+    })
+});
 var lyr_sectionI1 = new ol.layer.Image({
-        opacity: 1,
-
+    opacity: 1,
     title: 'section I1<br />' ,
-
-
-        source: new ol.source.ImageStatic({
-            url: "./layers/sectionI1.png",
-            attributions: ' ',
-            projection: 'EPSG:3857',
-            alwaysInRange: true,
-            imageExtent: [-37480.405718, 5935270.296097, -33751.811071, 5939238.311270]
-        })
-    });
+    source: new ol.source.ImageStatic({
+        url: "./layers/sectionI1.png",
+        attributions: ' ',
+        projection: 'EPSG:3857',
+        alwaysInRange: true,
+        imageExtent: [-37480.405718, 5935270.296097, -33751.811071, 5939238.311270]
+    })
+});
 
 var group_Mauzcadastre1825 = new ol.layer.Group({
                                 layers: [
